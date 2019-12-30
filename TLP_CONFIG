@@ -27,12 +27,12 @@ TLP_PERSISTENT_DEFAULT=1
 # Seconds laptop mode has to wait after the disk goes idle before doing a sync.
 # Non-zero value enables, zero disables laptop mode.
 # Default: 0 (AC), 2 (BAT)
-DISK_IDLE_SECS_ON_AC=0
+DISK_IDLE_SECS_ON_AC=2
 DISK_IDLE_SECS_ON_BAT=2
 
 # Dirty page values (timeouts in secs).
 # Default: 15 (AC + BAT)
-MAX_LOST_WORK_SECS_ON_AC=15
+MAX_LOST_WORK_SECS_ON_AC=60
 MAX_LOST_WORK_SECS_ON_BAT=60
 
 # Note: CPU parameters below are disabled by default, remove the leading #
