@@ -1,2 +1,5 @@
-# gnome_confs
-# best tlp config for gnome with respect to battery backup unless you're planning on shutting down cores or disabling HT
+#TLP Config
+
+Designed especially for a linux system running over Intel i series processor and using i915 dkms for media rendering over mesa. HDD suspend enabled - (Manual POWER SAVING MODE to be enabled for SSDs - turned off by default)
+Tested and works with Arch, Gentoo, Debian, Mint, Manjaro!
+Hopefully should work on others as well. Open to PR submissions!
