@@ -13,5 +13,5 @@
 
 ## regulatory db fix 
 
-*install and setup crda and wireless-regdb(dependency)
+*install and setup crda and wireless-regdb(dependency)*
 
