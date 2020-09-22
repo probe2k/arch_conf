@@ -15,3 +15,7 @@
 
 *install and setup crda and wireless-regdb(dependency)*
 
+## package removal (xorg-apps)
+
+> xorg-luit (Terminal export override substitute working)
+> xorg-iceauth (ICE block on nautilus)
