@@ -24,3 +24,13 @@
 > upower (-Rdd for dep override - tracker-miner-fs)
 >
 > acpi (skepticism on sensor data overrides - calibration due)
+
+## intel-undervolt msr bug
+
+> kernel: msr: Write to unrecognized MSR 0x150 by intel-undervolt
+
+## package hold
+
+> libpulse|pulseaudio|pulseaudio-bluetooth : breaks sync and media cap
+
+> picom : scrot artifacts. source patch to trim 1px offset on left/right failed
