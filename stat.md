@@ -20,3 +20,7 @@
 > xorg-luit (Terminal export override substitute working)
 >
 > xorg-iceauth (ICE block on nautilus)
+>
+> upower (-Rdd for dep override - tracker-miner-fs)
+>
+> acpi (skepticism on sensor data overrides - calibration due)
