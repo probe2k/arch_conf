@@ -34,3 +34,9 @@
 > libpulse|pulseaudio|pulseaudio-bluetooth : breaks sync and media cap
 
 > picom : scrot artifacts. source patch to trim 1px offset on left/right failed
+
+## package add
+
+*vulkan-intel -> AVD runtime error spawn*
+
+ > emulator: ERROR: VkCommonOperations.cpp:541: Failed to create Vulkan
