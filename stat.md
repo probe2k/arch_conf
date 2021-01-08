@@ -40,3 +40,11 @@
 *vulkan-intel -> AVD runtime error spawn*
 
  > emulator: ERROR: VkCommonOperations.cpp:541: Failed to create Vulkan
+ >
+ > cannot add library /home/probe/Android/Sdk/emulator/qemu/linux-x86_6
+added library /home/probe/Android/Sdk/emulator/lib64/vulkan/libvulka
+cannot add library /home/probe/Android/Sdk/emulator/lib64/vulkan/lib
+
+### fix
+
+*ln -sf from ~/Android/Sdk/emulator/lib64 to ~/Android/Sdk/emulator/qemu/linux-x86_64/*
