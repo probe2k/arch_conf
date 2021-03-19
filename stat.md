@@ -32,7 +32,7 @@
 ## package hold
 
 > libpulse|pulseaudio|pulseaudio-bluetooth : breaks sync and media cap
-
+>
 > picom : scrot artifacts. source patch to trim 1px offset on left/right failed
 
 ## package add
