@@ -58,8 +58,11 @@ cannot add library /home/probe/Android/Sdk/emulator/lib64/vulkan/lib
 #### switch from nautilus to thunar
 
 *Package count : 572*
+
 *Dependencies : "
 
 > thunar-archive-plugin
+> 
 > xarchiver
+> 
 > unzip
