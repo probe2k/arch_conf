@@ -59,7 +59,7 @@ cannot add library /home/probe/Android/Sdk/emulator/lib64/vulkan/lib
 
 *Package count : 572*
 
-*Dependencies : "
+*Dependencies : *
 
 > thunar-archive-plugin
 > 
