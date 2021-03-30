@@ -66,3 +66,12 @@ cannot add library /home/probe/Android/Sdk/emulator/lib64/vulkan/lib
 > xarchiver
 > 
 > unzip
+
+## [i3-gaps] urxvt-segfault on exit
+
+-> fix
+
+> export PERL_DESTRUCT_LEVEL=2
+
+* Should be added in /etc/profile.d/<base.sh> *
+* Temp fix - added to /etc/profile.d/locale.sh *
