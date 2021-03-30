@@ -59,7 +59,7 @@ cannot add library /home/probe/Android/Sdk/emulator/lib64/vulkan/lib
 
 *Package count : 572*
 
-*Dependencies : *
+*Dependencies :*
 
 > thunar-archive-plugin
 > 
@@ -73,5 +73,5 @@ cannot add library /home/probe/Android/Sdk/emulator/lib64/vulkan/lib
 
 > export PERL_DESTRUCT_LEVEL=2
 
-* Should be added in /etc/profile.d/<base.sh> *
-* Temp fix - added to /etc/profile.d/locale.sh *
+* Should be added in /etc/profile.d/<base.sh>
+* Temp fix - added to /etc/profile.d/locale.sh
