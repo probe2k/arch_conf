@@ -59,6 +59,9 @@ cannot add library /home/probe/Android/Sdk/emulator/lib64/vulkan/lib
 
 *Package count : 572*
 
+*Switched from chromium to brave and added pulseaudio-equalizer-gtk*
+*Updated package count : 569*
+
 *Dependencies :*
 
 > thunar-archive-plugin
