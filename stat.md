@@ -78,3 +78,15 @@ cannot add library /home/probe/Android/Sdk/emulator/lib64/vulkan/lib
 
 * Should be added in /etc/profile.d/<base.sh>
 * Temp fix - added to /etc/profile.d/locale.sh
+
+## [android-studio] device properties insufficient permission
+
+> Error 1 retrieving device properties for ro.product.cpu.abi:
+> adb: insufficient permissions for device
+> See [http://developer.android.com/tools/device.html] for more information
+
+-> fix
+
+Kill existing adb server
+
+> sudo ${HOME}/Android/Sdk/platform-tools/adb start-server
