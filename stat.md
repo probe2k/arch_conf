@@ -94,11 +94,15 @@ Kill existing adb server
 ## [android-studio] vulkan instance error
 
 * emulator: ERROR: VkCommonOperations.cpp:537: Failed to create Vulkan instance.
+
 -> fix 
+
 *pacman -S vulkan-intel*
 
 * MESA-INTEL: warning: Performance support disabled, consider sysctl dev.i915.perf_stream_paranoid=0
+
 -> fix
+
 > sudo sysctl dev.i915.perf_stream_paranoid=0*
 
 *Ref the same inside /etc/sysctl.d/40-dirty.conf*
@@ -106,6 +110,7 @@ Kill existing adb server
 > sudo echo "dev.i915.perf_stream_paranoid=0" >> /etc/sysctl.d/40-dirty.conf
 
 * Fontconfig warning: "/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"
+
 -> fix
 
 *Eliminate <reset-dirs /> from /usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf*
