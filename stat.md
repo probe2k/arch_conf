@@ -121,5 +121,4 @@ Kill existing adb server
 
 > export CHROME_EXECUTABLE=brave
 
-* Should be added in /etc/profile.d/<base.sh>
-* Temp fix - added to /etc/profile.d/locale.sh
+* Fix - add to */etc/profile.d/flutter.sh*
