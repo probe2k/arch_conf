@@ -138,3 +138,15 @@ Kill existing adb server
 > 0.0.0.0 gads.pubmatic.com
 > 
 > 0.0.0.0 ads.pubmatic.com
+> 
+> 0.0.0.0 upgrade.spotify.com
+> 
+> 0.0.0.0 [www.spotify-desktop.com](http://www.spotify-desktop.com)
+> 
+> 0.0.0.0 sto3-accesspoint-a88.sto3.spotify.net
+> 
+> 0.0.0.0 upgrade.scdn.co
+> 
+> 0.0.0.0 beta.spotify.map.fastly.net
+> 
+> 0.0.0.0 prod.spotify.map.fastlylb.net
