@@ -127,6 +127,8 @@ Kill existing adb server
 
 -> fix
 
+*add these lines to /etc/hosts*
+
 > 0.0.0.0 pubads.g.doubleclick.net
 > 
 > 0.0.0.0 securepubads.g.doubleclick.net
