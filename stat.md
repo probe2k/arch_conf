@@ -150,3 +150,14 @@ Kill existing adb server
 > 0.0.0.0 beta.spotify.map.fastly.net
 > 
 > 0.0.0.0 prod.spotify.map.fastlylb.net
+
+## [urxvt->st shift]
+
+*Throws character encoding errors on launching / quitting nvim*
+
+> erresc: unknown csi ESC[22;0;0t
+>
+> erresc: unknown str ESC]11
+>
+> erresc: unknown csi ESC[23;0;0t
+
