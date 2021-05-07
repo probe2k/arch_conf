@@ -186,3 +186,13 @@ Kill existing adb server
 > display:none;
 > 
 > }
+
+## [android-studio]
+
+*Android Studio not showing any window on bspwm*
+
+-> Fix
+
+Added to /etc/profile.d/locale.sh
+
+> export _JAVA_AWT_WM_NONREPARENTING=1
