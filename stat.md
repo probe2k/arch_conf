@@ -165,10 +165,7 @@ Kill existing adb server
 
 ### patch2
 
-# Static table lookup for hostnames.
-# See hosts(5) for details.
-
-> # 127.0.0.1 login5.spotify.com // blocks ads but also stops music... | workaround needed
+> 127.0.0.1 login5.spotify.com // blocks ads but also stops music... | workaround needed
 >  
 > 127.0.0.1 xpui.app.spotify.com
 > 
