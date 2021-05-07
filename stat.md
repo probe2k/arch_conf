@@ -161,3 +161,31 @@ Kill existing adb server
 >
 > erresc: unknown csi ESC[23;0;0t
 
+## [spotify-adblock]
+
+### patch2
+
+# Static table lookup for hostnames.
+# See hosts(5) for details.
+
+> # 127.0.0.1 login5.spotify.com // blocks ads but also stops music... | workaround needed
+>  
+> 127.0.0.1 xpui.app.spotify.com
+> 
+> 127.0.0.1 platform-lookaside.fbsbx.com
+> 
+> 127.0.0.1 adservice.google.co.in
+> 
+> 127.0.0.1 adservice.google.com
+> 
+> 127.0.0.1 securepubads.g.doubleclick.net
+> 
+> 127.0.0.1 4b20079381565079237575ba7713ecbe.safeframe.googlesyndication.com
+
+### hide banner
+
+> [aria-label="Advertisement"] {
+> 
+> display:none;
+> 
+> }
