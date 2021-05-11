@@ -196,3 +196,12 @@ Kill existing adb server
 Added to /etc/profile.d/locale.sh
 
 > export _JAVA_AWT_WM_NONREPARENTING=1
+
+## [st]
+
+*Color emoji rendering crashes st*
+
+-> Fix
+
+> Build libxft-bgra from aur and remove libxft
+> Dep : xorg-util-macros
