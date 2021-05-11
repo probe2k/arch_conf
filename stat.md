@@ -204,4 +204,5 @@ Added to /etc/profile.d/locale.sh
 -> Fix
 
 > Build libxft-bgra from aur and remove libxft
+> 
 > Dep : xorg-util-macros
