@@ -206,3 +206,12 @@ Added to /etc/profile.d/locale.sh
 > Build libxft-bgra from aur and remove libxft
 > 
 > Dep : xorg-util-macros
+
+## [android-studio]
+
+*emulator: error while loading shared libraries: libc++.so.1*
+
+-> Fix
+
+> Packages (2) libc++abi-11.1.0-1  libc++-11.1.0-1
+
