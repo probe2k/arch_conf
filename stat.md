@@ -215,3 +215,6 @@ Added to /etc/profile.d/locale.sh
 
 > Packages (2) libc++abi-11.1.0-1  libc++-11.1.0-1
 
+## [package-mgmt]
+
+*wpa_actiond | Required by None obsolete from official repo | Not picked by orphans | Manual Removal*
