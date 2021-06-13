@@ -218,3 +218,28 @@ Added to /etc/profile.d/locale.sh
 ## [package-mgmt]
 
 *wpa_actiond | Required by None obsolete from official repo | Not picked by orphans | Manual Removal*
+*vamp-plugin-sdk | Required by None | optional dep - rubberband | Not picked by orphans | Manual Removal*
+
+## [brave-HWaccel | YouTube
+
+*h264ify installed | driver not reading HW accel for video_decode
+
+-> Fix
+
+#### Set these flags high :
+
+> #ignore-gpu-blocklist
+>
+> #enable-gpu-rasterization
+>
+> #enable-zero-copy
+
+#### Package deps :
+
+> libva
+> 
+> libva-intel-driver
+
+#### brave flags on launch :
+
+> brave --use-gl=desktop --enable-features=VaapiVideoDecoder
