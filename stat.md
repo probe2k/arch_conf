@@ -240,6 +240,10 @@ Added to /etc/profile.d/locale.sh
 > 
 > libva-intel-driver
 
-#### brave flags on launch :
+#### brave flags on launch | binary :
 
 > brave --use-gl=desktop --enable-features=VaapiVideoDecoder
+
+#### brave.desktop modif :
+
+> Exec=/opt/brave/brave --use-gl=desktop --enable-features=VaapiVideoDecoder %u
