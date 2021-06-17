@@ -255,3 +255,21 @@ Added to /etc/profile.d/locale.sh
 > DMAR: [INTR-REMAP] Request device [f0:1f.0] fault index 0
 > 
 > ioremap error for 0x7aecf000-0x7aed0000, requested 0x2, got 0x0
+
+-> fix
+
+> kernel param : intel_iommu=off
+
+## [intel_pstate | initstate]
+
+> could not read from '/sys/module/pcc_cpufreq/initstate'
+
+-> fix
+
+> kernel param : intel_pstate=active
+
+## [grub | os_prober]
+
+*Warning: os-prober will not be executed to detect other bootable partitions.*
+
+> Uninstall os-prober | native arch system
