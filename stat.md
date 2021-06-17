@@ -247,3 +247,11 @@ Added to /etc/profile.d/locale.sh
 #### brave.desktop modif :
 
 > Exec=/opt/brave/brave --use-gl=desktop --enable-features=VaapiVideoDecoder %u
+
+## [DMAR | dmesg]
+
+> DMAR: DRHD: handling fault status reg 2
+>
+> DMAR: [INTR-REMAP] Request device [f0:1f.0] fault index 0
+> 
+> ioremap error for 0x7aecf000-0x7aed0000, requested 0x2, got 0x0
