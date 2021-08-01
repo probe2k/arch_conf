@@ -295,23 +295,41 @@ Added to /etc/profile.d/locale.sh
 *Configs -> /etc/tmpfiles.d/power-savings.conf*
 
 > w /proc/sys/vm/dirty_writeback_centisecs - - - - 1500
+> 
 > w /proc/sys/kernel/nmi_watchdog - - - - 0
+> 
 > w /sys/class/scsi_host/host0/link_power_management_policy - - - - med_power_with_dipm
+> 
 > w /sys/class/scsi_host/host1/link_power_management_policy - - - - med_power_with_dipm
+> 
 > w /sys/bus/i2c/devices/i2c-2/device/power/control - - - - auto
+> 
 > w /sys/bus/i2c/devices/i2c-3/device/power/control - - - - auto
+> 
 > w /sys/bus/i2c/devices/i2c-4/device/power/control - - - - auto
+> 
 > w /sys/bus/usb/devices/1-5/power/control - - - - auto
+> 
 > w /sys/bus/usb/devices/1-3/power/control - - - - auto
+> 
 > w /sys/bus/usb/devices/1-2/power/control - - - - auto
+> 
 > w /sys/bus/pci/devices/0000:00:00.0/power/control - - - - auto
+> 
 > w /sys/bus/pci/devices/0000:03:00.0/power/control - - - - auto
+> 
 > w /sys/block/sda/device/power/control - - - - auto
+> 
 > w /sys/bus/pci/devices/0000:00:17.0/ata1/power/control - - - - auto
+> 
 > w /sys/bus/pci/devices/0000:00:17.0/power/control - - - - auto
+> 
 > w /sys/bus/pci/devices/0000:00:17.0/ata2/power/control - - - - auto
+> 
 > w /sys/bus/pci/devices/0000:02:00.0/power/control - - - - auto
+> 
 > w /sys/bus/pci/devices/0000:01:00.0/power/control - - - - auto
+> 
 > w /sys/bus/pci/devices/0000:00:02.0/power/control - - - - auto
+> 
 > w /sys/bus/pci/devices/0000:00:1f.0/power/control - - - - auto
-
