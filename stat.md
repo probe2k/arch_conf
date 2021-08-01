@@ -273,3 +273,19 @@ Added to /etc/profile.d/locale.sh
 *Warning: os-prober will not be executed to detect other bootable partitions.*
 
 > Uninstall os-prober | native arch system
+
+## [lvm2-monitor.service]
+
+*Stretches bootup time by 5-8s by provisioning volume mounts check*
+
+#### Applied
+
+> systemctl disable lvm2-monitor.service
+
+#### Effect
+
+*Disables any media mount (phone/usb) on runtime*
+
+-> fix
+
+> systemctl mask lvm2-monitor.service
