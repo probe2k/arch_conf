@@ -333,3 +333,19 @@ Added to /etc/profile.d/locale.sh
 > w /sys/bus/pci/devices/0000:00:02.0/power/control - - - - auto
 > 
 > w /sys/bus/pci/devices/0000:00:1f.0/power/control - - - - auto
+
+## [gmeet-brave]
+
+*Screen flickers after a while on meet and X crashes. Recovery -> pkill X*
+
+-> fix
+
+> pacman -S xorg-xrefresh
+
+## [thunar]
+
+*Dep add -> zip for create archive*
+
+-> fix
+
+> pacman -S zip
