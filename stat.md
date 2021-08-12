@@ -349,3 +349,17 @@ Added to /etc/profile.d/locale.sh
 -> fix
 
 > pacman -S zip
+
+## [authentication]
+
+*Authentication service could not retrieve*
+
+*/usr/bin/sudo must be owned by uid 0 and have the setuid bit set version*
+
+-> fix
+
+> pkexec chmod a=rx,u+ws /usr/bin/sudo
+>
+> pkexec chown root:root /etc/sudoers /etc/sudoers.d -R
+>
+> pkexec chmod a=rx,u+ws /usr/bin/su
