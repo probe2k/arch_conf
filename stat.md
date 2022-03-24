@@ -401,3 +401,11 @@ Added to /etc/profile.d/locale.sh
 > LC_IDENTIFICATION="en_US.UTF-8"
 > 
 > LC_ALL=
+
+## [brave-encode] Software Only
+
+-> Fix
+
+*Add this to sxhkdrc and refresh -> super + shift + c*
+
+> brave --use-gl=desktop --enable-features=VaapiVideoDecoder,VaapiVideoEncoder
