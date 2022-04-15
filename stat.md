@@ -409,3 +409,11 @@ Added to /etc/profile.d/locale.sh
 *Add this to sxhkdrc and refresh -> super + shift + c*
 
 > brave --use-gl=desktop --enable-features=VaapiVideoDecoder,VaapiVideoEncoder
+
+## [timezone]
+
+-> Fix
+
+> timedatectl set-local-rtc 0
+> 
+> timedatectl set-timezone Asia/Kolkata
