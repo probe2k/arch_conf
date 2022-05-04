@@ -575,3 +575,5 @@ Added to /etc/profile.d/locale.sh
 > *.jar=♨:\
 > 
 > *.java=♨:\
+
+> export LF_ICONS
