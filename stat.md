@@ -220,7 +220,7 @@ Added to /etc/profile.d/locale.sh
 *wpa_actiond | Required by None obsolete from official repo | Not picked by orphans | Manual Removal*
 *vamp-plugin-sdk | Required by None | optional dep - rubberband | Not picked by orphans | Manual Removal*
 
-## [brave-HWaccel | YouTube
+## [brave-HWaccel | YouTube]
 
 *h264ify installed | driver not reading HW accel for video_decode
 
@@ -567,3 +567,25 @@ Added to /etc/profile.d/locale.sh
 > *.java=♨:\
 
 > export LF_ICONS
+
+## [brave-HWaccel | YouTube]
+
+*flags update | unsafe webGPU not supported
+
+-> Flags
+
+#### Set these flags high :
+
+> #ignore-gpu-blocklist
+>
+> #enable-gpu-rasterization
+>
+> #enable-zero-copy
+> 
+> #enable-system-notifications
+> 
+> #enable-drdc
+> 
+> #canvas-oop-rasterization
+> 
+> #enable-raw-draw
