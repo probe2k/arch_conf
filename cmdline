@@ -1,0 +1,1 @@
+root=/dev/nvme0n1p2 initrd=initramfs-linux.img radeon.modeset=0 amdgpu.runpm=0 libahci.ignore_sss=1 i915.enable_fbc=1 intel_idle.max_cstate=1 resume=/dev/sda4
