@@ -412,7 +412,7 @@ Added to /etc/profile.d/locale.sh
 
 -> Fix *Not the best idea, but it works*
 
-*Add to /etc/profile.d/file.sh and restart your shell
+*Add to /etc/profile.d/file.sh and restart your shell*
 
 > LF_ICONS="di=📁:\
 > 
