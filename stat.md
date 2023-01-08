@@ -570,7 +570,7 @@ Added to /etc/profile.d/locale.sh
 
 ## [brave-HWaccel | YouTube]
 
-*flags update | unsafe webGPU not supported
+*flags update | unsafe webGPU not supported*
 
 -> Flags
 
@@ -592,7 +592,7 @@ Added to /etc/profile.d/locale.sh
 
 ## [efibootmgr]
 
-*kernel panic | vfs unsync
+*kernel panic | vfs unsync*
 
 -> Fix
 
