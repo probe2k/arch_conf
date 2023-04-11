@@ -323,6 +323,8 @@ Added to /etc/profile.d/locale.sh
 > w /sys/bus/pci/devices/0000:02:00.0/power/control - - - - auto
 > 
 > w /sys/bus/pci/devices/0000:01:00.0/power/control - - - - auto
+>
+> w /sys/bus/pci/devices/0000:03:00.0/power/control - - - - auto
 
 ## [gmeet-brave]
 
