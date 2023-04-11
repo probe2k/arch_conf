@@ -599,3 +599,11 @@ Added to /etc/profile.d/locale.sh
 -> Fix
 
 > efibootmgr -d /dev/nvme0n1 -p 1 -c -L "probe" -l /vmlinuz-linux -u "root=/dev/nvme0n1p2 rw initrd=/initramfs-linux.img libahci.ignore_sss=1 amdgpu.runpm=0 radeon.modeset=0 mitigations=off resume=/dev/sda4" -v
+
+## [ath10k_pci | ath10k_core]
+
+*wpa_supplicant crash -> ath10k_pci ath10k_core*
+
+-> Fix
+
+> efibootmgr -d /dev/nvme0n1 -p 1 -c -L "probe" -l /vmlinuz-linux -u "root=/dev/nvme0n1p2 rw initrd=/initramfs-linux.img libahci.ignore_sss=1 pci_aspm=off amdgpu.runpm=0 radeon.modeset=0 mitigations=off resume=/dev/sda4" -v
